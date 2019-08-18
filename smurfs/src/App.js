@@ -9,8 +9,6 @@ import {smurfInfo} from './actions/index'
 //import form to add more smurfs!!!
 import SmurfForm from './components/SmurfForm'
 
-
-
 class App extends React.Component{
    constructor(props){
         super(props)
@@ -26,8 +24,7 @@ class App extends React.Component{
                                         age={smurf.age} 
                                         height={smurf.height} 
                                         id={smurf.id}
-                                />
-                                
+                                />                    
                     })}
             </div>
                 )
